@@ -1,6 +1,15 @@
 #!/bin/bash 
 
 
+
+# Script Name: server-stats.sh
+# Description: Analyzes core server/system performance metrics (CPU, RAM, Disk, Top processes) and displays OS system information.
+# Usage:       ./server-stats.sh
+# Note:        Run with 'sudo ./server-stats.sh' to correctly count failed SSH logins.
+
+
+
+
 check_failed_logins() {
     echo -e "---- Failed Log Ins ----"
     if [ -f /var/log/auth.log ]; then
