@@ -7,6 +7,7 @@ A personal collection of Bash scripts for Linux written as I am learning DevOps 
 | Script | Category | Description |
 |---|---|---|
 | [`server-stats.sh`](./server-stats.sh) | Monitoring | Analyzes core server performance metrics (CPU, RAM, Disk, Top processes) and OS info. |
+| [`log-archiver.sh`](./log-archiver.sh) | System Maintenance | Compresses and archives given log directories into timestamped tarballs with an automated audit log. |
 
 *(More scripts will be added to this index as the repository grows.)*
 
